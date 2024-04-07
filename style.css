@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    text-align: justify;
+    display: none;
+}
+li {
+    text-align: justify;
+    position: relative;
+    margin: 2rem;
+    padding: 1.5rem;
+  }
+  li::before {
+    content: "";
+    position: absolute;
+    height: 1.3rem;
+    width: 4.1rem;
+    background: cyan;
+    border-radius: 0.5rem;
+    z-index: -1;
+  }
